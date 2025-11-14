@@ -1,5 +1,5 @@
 # Hiking-Photos
-
+ 
 ## Description
 CS5610 Project 3
 
