@@ -41,7 +41,7 @@ function mongoPictureConnector({
     // percent1 = 0;
     percent2 = parseFloat(percent2);
     percent1 = parseFloat(percent1);
-    if (percent1 >= percent2){
+    if (percent1 >= percent2){  /* use Math.floor and Math.ceil for percent bouding could be better, but it still works */
       percent1++, percent2--;
     } else {
       percent2++, percent1--;
